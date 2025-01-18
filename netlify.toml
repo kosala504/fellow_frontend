@@ -86,7 +86,7 @@
 
 [build]
   command = "yarn build"
-  publish = "out"
+  publish = ".next"
 
   [build.environment]
   NEXT_PRIVATE_TARGET = "server"
