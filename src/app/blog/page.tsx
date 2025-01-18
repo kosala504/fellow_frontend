@@ -64,7 +64,9 @@ async function loader(page: number, queryString: string, category: string) {
     },
   });
   const data = await fetchData(url.href);
+  console.log("Fetched data by kosala:", data); 
   return data;
+
 }
 
 export default async function BlogRoute({ searchParams }: SearchParamsProps) {
